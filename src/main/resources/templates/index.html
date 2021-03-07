@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>MarkoApp</title>
+	<link rel = "stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  />
+</head>
+<body>
+	<div class="container"  align="center">
+	
+		<div>
+			<h1>Welcome do my app</h1>
+		</div>
+		<div>
+			<h3><a th:href = "@{/list_users}">List all users</a></h3>
+			<h3><a th:href = "@{/register}">Register</a></h3>
+			<h3><a th:href = "@{/login}">Login</a></h3>
+		</div>
+	</div>
+	
+</body>
+</html>
